@@ -18,7 +18,7 @@ client.on('message', async msg => {
                 'Content-Type': 'multipart/form-data',
             },
             auth: {
-                bearer: process.env.LINE_TOKEN,
+                bearer: 'nbTaKpaK84zihGKEXUP4pucBroXbcuUvVsJsb3PMu4J',
             },
             form: {
                 message: `${author} (${channelName}) : ${text}`
@@ -33,4 +33,4 @@ client.on('message', async msg => {
     }
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login('OTIyMDc3MjkzODE4NTY4NzY0.Yb8NZg.XktStJppfXPAQKj30RV-ib8IXZo');
